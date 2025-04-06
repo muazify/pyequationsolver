@@ -77,3 +77,9 @@ The script will first attempt symbolic solving. If it finds exact real solutions
 * **Real Solutions Only:** The symbolic solver (`solveset`) is currently configured to search only for real solutions (`domain=sympy.S.Reals`).
 * **Solver Capabilities:** Neither `solveset` nor `fsolve` can solve *all* possible equations. Very complex or pathological equations might fail in both symbolic and numerical stages.
 * **Parsing Complexity:** While `sympify` is powerful, extremely complex or ambiguously written input strings might cause parsing errors.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
